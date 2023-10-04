@@ -1,0 +1,13 @@
+.item-list{
+    /* list-style-type: none; */
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.item-list li{
+    background: white;
+    padding: 10px;
+    /* แยกชื่อรายการ กับจำนวนเงิน */
+    display: flex;
+    justify-content: space-between;
+}
